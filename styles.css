@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hero {
+    background: url('https://source.unsplash.com/1600x600/?food') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer i {
+    font-size: 1.2rem;
+  }
+  
